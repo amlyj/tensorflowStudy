@@ -3,5 +3,5 @@
 
 ### 安装
 ```
-udo pip install -r requirements.txt
+sudo pip install -r requirements.txt
 ```
