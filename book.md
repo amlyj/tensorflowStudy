@@ -14,3 +14,10 @@
 * 搭建一个识别手写数字 ：[视频](http://v.qq.com/iframe/player.html?vid=k0543utglfd&width=670&height=376.875&auto=0) | [源码](https://github.com/llSourcell/tensorflow_demo)
 * 5分钟搭建RNN（循环神经网络）：[视频](http://v.qq.com/iframe/player.html?vid=j0544xs9czt&width=670&height=376.875&auto=0) | [源码](https://github.com/llSourcell/recurrent_neural_net_demo)
 * 5分钟了解TensorFlow的可视化工具包—Tensorboard ：[视频](http://v.qq.com/iframe/player.html?vid=j0544789fqt&width=670&height=376.875&auto=0) | [源码](https://github.com/llSourcell/Tensorboard_demo)
+
+
+---
+# 学习笔记
+* [《深度学习原理与TensorFlow实践》学习笔记（一）](https://mp.weixin.qq.com/s?__biz=MzI0ODcxODk5OA==&mid=2247488486&idx=4&sn=adf814f499857cdc9cca9f3516f57463&chksm=e99d201fdeeaa9092d66a578add46da5dee6aa7be08c004ddf9f644fdcc9dee821d61cfc8170&scene=21#wechat_redirect)
+* [《深度学习原理与TensorFlow实践》学习笔记（二）](https://mp.weixin.qq.com/s?__biz=MzI0ODcxODk5OA==&mid=2247488631&idx=3&sn=bfd32a84448f0fd981f59d32d4df29c6&chksm=e99d278edeeaae98b242df351e5e8fc3bb7e851bebcfe068185e90b6418db089e23ca1691ce5&scene=21#wechat_redirect)
+* [《深度学习原理与TensorFlow实践》学习笔记（三）](https://mp.weixin.qq.com/s?__biz=MzI0ODcxODk5OA==&mid=2247488675&idx=4&sn=cfeb20a2b5c0374304f992a503bf55a3&chksm=e99d275adeeaae4cdf6c0efe9f35d9d3a72baf2c48e407d8683e046580fdc3bba76ca354cac4&mpshare=1&scene=1&srcid=09040MqyyV21yQ1k1fmAeqF0#rd)
