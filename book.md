@@ -15,6 +15,10 @@
 * 5分钟搭建RNN（循环神经网络）：[视频](http://v.qq.com/iframe/player.html?vid=j0544xs9czt&width=670&height=376.875&auto=0) | [源码](https://github.com/llSourcell/recurrent_neural_net_demo)
 * 5分钟了解TensorFlow的可视化工具包—Tensorboard ：[视频](http://v.qq.com/iframe/player.html?vid=j0544789fqt&width=670&height=376.875&auto=0) | [源码](https://github.com/llSourcell/Tensorboard_demo)
 
+---
+# 开源资料及视频
+* [“深度学习”中文课程](http://zh.gluon.ai/index.html)
+* [网易云课堂](http://study.163.com/category/400000000599022)
 
 ---
 # 学习笔记
