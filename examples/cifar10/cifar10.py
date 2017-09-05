@@ -16,18 +16,16 @@ Summary of available functions:
  train_op = train(loss, global_step)
 """
 # pylint: disable=missing-docstring
-import gzip
 import os
 import re
 import sys
 import tarfile
 import urllib
 
-import tensorflow.python.platform
 import tensorflow as tf
+from tensorflow.python.platform import gfile
 
 import cifar10_input
-from tensorflow.python.platform import gfile
 
 FLAGS = tf.app.flags.FLAGS
 
