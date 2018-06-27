@@ -17,16 +17,13 @@ data set, compile the program and train the model.
 
 http://tensorflow.org/tutorials/deep_cnn/
 """
-from datetime import datetime
 import os.path
 import time
-
-import tensorflow.python.platform
-from tensorflow.python.platform import gfile
+from datetime import datetime
 
 import numpy as np
-
 import tensorflow as tf
+from tensorflow.python.platform import gfile
 
 import cifar10
 
