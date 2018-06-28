@@ -5,7 +5,7 @@
 # @Description    : 加载测试数据
 # @File           : mnist_01.py
 # @Product        : PyCharm
-
+from __future__ import absolute_import, division, print_function
 import tensorflow as tf
 from tensorflow.examples.tutorials.mnist import input_data
 
