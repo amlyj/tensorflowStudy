@@ -3,4 +3,4 @@
 # More detail usage please read "https://pip.pypa.io/en/stable/user_guide/"
 
 tensorflow==1.2.0
-protobuf>=3.2.0
+#protobuf>=3.2.0
