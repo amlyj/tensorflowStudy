@@ -2,5 +2,5 @@
 # And use `pip install -r requirements.txt` to install them.
 # More detail usage please read "https://pip.pypa.io/en/stable/user_guide/"
 
-tensorflow==1.1.0
+tensorflow==1.2.0
 protobuf==3.0.0
