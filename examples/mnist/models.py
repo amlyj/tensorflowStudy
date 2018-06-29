@@ -15,11 +15,11 @@ import tensorflow as tf
 def regression(x):
     """
     线性回归
-    Y = W*x+b
+    Y = w*x+b
     :param x:
-    :return: W*x+b
+    :return: w*x+b, [w, b]
     """
-    W = tf.Variable(tf.zeros([784, 10]), name='W')
+    w = tf.Variable(tf.zeros([28 * 28, 10]), name='w')
     b = tf.Variable(tf.zeros([10]), name='b')
-    y = tf.nn.softmax(tf.matmul(x, W) + b)
-    return y, [W, b]
+    y = tf.nn.softmax(tf.matmul(x, w) + b)
+    return y, [w, b]

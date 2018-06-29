@@ -24,7 +24,7 @@ if __name__ == '__main__':
     # 创建模型
     print('创建regression模型')
     with tf.variable_scope("regression"):
-        x = tf.placeholder("float", [None, 784])
+        x = tf.placeholder("float", [None, 28 * 28])
         y, variables = models.regression(x)
 
     # 训练模型

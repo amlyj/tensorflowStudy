@@ -9,10 +9,9 @@ from __future__ import absolute_import, division, print_function
 
 import os
 
+import models
 import numpy as np
 import tensorflow as tf
-
-import models
 
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
 
@@ -24,7 +23,7 @@ def regression_train(sess, x_):
     :param x_: 输入
     :return:
     """
-    x = tf.placeholder("float", [None, 784])
+    x = tf.placeholder("float", [None, 28 * 28])
     # 调用线性模型
     with tf.variable_scope("regression"):
         y, variables = models.regression(x)
@@ -74,8 +73,9 @@ if __name__ == '__main__':
              255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255,
              255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255]
     session = tf.Session()
-    input_data = ((255 - np.array(var_3, dtype=np.int8)) / 255.0).reshape(1, 784)
-    print(input_data)
+    # print(var_3.__len__())
+    input_data = ((255 - np.array(var_3, dtype=np.int8)) / 255.0).reshape(1, 28 * 28)
+    # print(input_data[0].__len__())
     data = regression_train(sess=session, x_=input_data)
     session.close()
     for i, j in enumerate(data, start=0):
