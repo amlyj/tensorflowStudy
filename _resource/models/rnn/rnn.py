@@ -2,7 +2,7 @@
 
 import tensorflow as tf
 
-from tensorflow.models.rnn import rnn_cell
+import rnn_cell
 from tensorflow.python.ops import control_flow_ops
 
 

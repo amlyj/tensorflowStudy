@@ -4,7 +4,7 @@ import math
 
 import tensorflow as tf
 
-from tensorflow.models.rnn import linear
+import linear
 
 
 class RNNCell(object):

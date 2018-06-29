@@ -27,7 +27,7 @@
   * x86 ：https://www.microsoft.com/en-us/download/details.aspx?id=51137
 * install python3.6.5 ：https://www.python.org/downloads/release/python-365/
 * upgrade pip3 ：`$ python -m pip install --upgrade pip`
-* install tensorflow ：`$ pip3 install tensorflow==1.2.0`
+* install tensorflow ：`$ pip3 --default-timeout=100 install tensorflow-1.8.0`
 
 
 ## Link

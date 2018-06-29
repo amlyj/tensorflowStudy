@@ -26,7 +26,7 @@ import urllib
 import tensorflow.python.platform
 import tensorflow as tf
 
-from tensorflow.models.image.cifar10 import cifar10_input
+import cifar10_input
 from tensorflow.python.platform import gfile
 
 FLAGS = tf.app.flags.FLAGS
@@ -160,7 +160,7 @@ def distorted_inputs():
   """
   filenames = [os.path.join(FLAGS.data_dir, 'cifar-10-batches-bin',
                             'data_batch_%d.bin' % i)
-               for i in xrange(1, 5)]
+               for i in range(1, 5)]
   for f in filenames:
     if not gfile.Exists(f):
       raise ValueError('Failed to find file: ' + f)
@@ -225,7 +225,7 @@ def inputs(eval_data):
   if not eval_data:
     filenames = [os.path.join(FLAGS.data_dir, 'cifar-10-batches-bin',
                               'data_batch_%d.bin' % i)
-                 for i in xrange(1, 5)]
+                 for i in range(1, 5)]
     num_examples_per_epoch = NUM_EXAMPLES_PER_EPOCH_FOR_TRAIN
   else:
     filenames = [os.path.join(FLAGS.data_dir, 'cifar-10-batches-bin',
@@ -474,7 +474,7 @@ def maybe_download_and_extract():
           float(count * block_size) / float(total_size) * 100.0))
       sys.stdout.flush()
     filepath, _ = urllib.urlretrieve(DATA_URL, filepath, reporthook=_progress)
-    print
+    print()
     statinfo = os.stat(filepath)
-    print 'Succesfully downloaded', filename, statinfo.st_size, 'bytes.'
+    print('Succesfully downloaded', filename, statinfo.st_size, 'bytes.')
     tarfile.open(filepath, 'r:gz').extractall(dest_directory)

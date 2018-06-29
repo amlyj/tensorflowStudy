@@ -4,9 +4,9 @@ import tensorflow.python.platform
 
 import tensorflow as tf
 
-from tensorflow.models.rnn import linear
-from tensorflow.models.rnn import rnn
-from tensorflow.models.rnn import rnn_cell
+import linear
+import rnn
+import rnn_cell
 
 
 def rnn_decoder(decoder_inputs, initial_state, cell, loop_function=None,

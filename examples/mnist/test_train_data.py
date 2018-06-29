@@ -36,7 +36,7 @@ def regression_train(sess, x_):
 
 
 if __name__ == '__main__':
-    data = load_image.image_to_array('png/1.png')
+    data = load_image.image_to_array('png/0.png')
     session = tf.Session()
     # print(var_3.__len__())
     input_data = ((255 - np.array(data, dtype=np.int8)) / 255.0).reshape(1, 28 * 28)
